@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.rishabh.happybirthday.MainActivity">
 
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hbd3"
+        android:scaleType="centerCrop"/>
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#312abc"
-        android:text="Hello World!"
-        android:textColor="#fff000"
-        android:textSize="32sp"
-        android:textStyle="bold" />
-
-    <ImageView
+        android:text="Happy Birthday Brother"
+        android:textSize="36sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="179dp" />
-
-</android.support.constraint.ConstraintLayout>
+        android:text="From Rishabh!"
+        android:textSize="36sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#123456"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+</RelativeLayout>
