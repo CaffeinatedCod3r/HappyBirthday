@@ -19,9 +19,10 @@
         android:layout_height="wrap_content"
         android:text="Happy Birthday Brother"
         android:textSize="36sp"
-        android:textColor="#ffffff"
+        android:textColor="#123456"
         android:textStyle="bold"
-        android:fontFamily="sans-serif"/>
+        android:fontFamily="sans-serif"
+        android:layout_margin="15sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,5 +32,6 @@
         android:layout_alignParentBottom="true"
         android:textColor="#123456"
         android:textStyle="bold"
-        android:fontFamily="sans-serif"/>
+        android:fontFamily="sans-serif"
+        android:layout_margin="10sp"/>
 </RelativeLayout>
